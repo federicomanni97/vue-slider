@@ -77,7 +77,8 @@ createApp({
             }
         },
         bonus(index){
-            }
+            return this.counter = index
         }
+        
     },
   }).mount('#app'); //monta i miei dati dentro il div con l'id "app"
