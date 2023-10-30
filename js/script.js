@@ -69,6 +69,15 @@ createApp({
             if (this.counter === -1){
                 this.counter = this.slides.length -1;
             }
+        },
+        active(index){
+            if (this.counter === index) {
+                return 'active'
+                
+            }
+        },
+        bonus(index){
+            }
         }
     },
   }).mount('#app'); //monta i miei dati dentro il div con l'id "app"
